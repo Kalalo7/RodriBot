@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="rodribot.css">
+<header>
+<h1>Soy RodriBot G. F. y opino sobre la película que quieras!</h1>
+</header>
+
+<img id="banner" src="banner.png">
+
+<body class="principal">
+<script>
+
+	function saltarLinea() {
+		
+		document.write("<br><br><br>");
+	}
+
+	function imprimir(frase) {
+		document.write(frase);
+		saltarLinea();
+
+	}
+	saltarLinea();
+	
+	var peliAOpinar = prompt("ingrese la película a opinar");
+
+	imprimir("Lo que te puedo decir es que " + peliAOpinar + " es una GRAN PELÍCULA");
+	
+
+</script>
+</body>
